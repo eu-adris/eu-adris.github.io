@@ -2,160 +2,186 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <img  href="./imagens/Favicon-32x32.webp" alt="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <img href="./imagens/Favicon-32x32.webp" alt="">
 </head>
 
 <body>
 
-    <!-- NAVIGATION SECTION -->
-    <div>
-        <nav class="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <!-- <section id="home"> -->
-       
-    </div>
+  <!-- NAVIGATION SECTION -->
+  <div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- <section id="home"> -->
 
-    <!-- HOME SECTION -->
+  </div>
 
-    <div id="home">
-      <div class="home-container">
-          <h1><span>I'm Adriano Batista,</span> Front-end developer <br /> based in Brazil.</h1>
-          <p class="p-home">I design and code things, and I love bringing them to life.</p>
-  
-          <div class="button-group">
-              <button class='button-container' onclick="scrollToContact()">Contact me</button>
-              <button class='button-container'>Curriculum</button>
-          </div>
-  
-          <div class="social-icons">
-              <a href="https://github.com/eu-adris" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-github fa-2x"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/eu-adris/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-          </div>
+  <!-- HOME SECTION -->
+
+  <div id="home">
+    <div class="home-container">
+      <h1><span>I'm Adriano Batista,</span> Front-end developer <br /> based in Brazil.</h1>
+      <p class="p-home">I design and code things, and I love bringing them to life.</p>
+
+      <div class="button-group">
+        <button class='button-container' onclick="scrollToContact()">Contact me</button>
+        <button class='button-container'>Curriculum</button>
       </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/eu-adris" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/eu-adris/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+    </div>
   </div>
 
 
 
-    <!-- ABOUT SECTION -->
+  <!-- ABOUT SECTION -->
 
-    <h1 id="about" class="h1-about">About Me</h1>
-    <div class='about-container'>
-      <img class='img-about' src="imagens/adriano.jpg" alt="Adriano Batista" />
-    
-      <div class='about-text'>
-        <p class='p-about'>Web developer specializing in HTML, CSS, JavaScript, and React. I began my programming journey in April 2022 and have since been dedicated to building practical projects and exploring best practices in front-end development. <br />
-          <br />
-          With a solid foundation in modern technologies, I continuously strive to enhance my skills to create responsive, dynamic, and accessible interfaces. My goal is to contribute to innovative projects and collaborate with teams that value quality and creativity.</p>
+  <h1 id="about" class="h1-about">About Me</h1>
+  <div class='about-container'>
+    <img class='img-about' src="imagens/adriano.jpg" alt="Adriano Batista" />
+
+    <div class='about-text'>
+      <p class='p-about'>Web developer specializing in HTML, CSS, JavaScript, and React. I began my programming journey
+        in April 2022 and have since been dedicated to building practical projects and exploring best practices in
+        front-end development. <br />
         <br />
-        <div class="tech-icons">
-          <i class="fab fa-html5 fa-3x" title="HTML"></i>
-          <i class="fab fa-css3-alt fa-3x" title="CSS"></i>
-          <i class="fab fa-js-square fa-3x" title="JavaScript"></i>
-          <i class="fab fa-react fa-3x" title="React"></i>
-          <i class="fab fa-sass fa-3x" title="Sass"></i>
-          <i class="fab fa-figma fa-3x" title="Figma"></i>
-        </div>
+        With a solid foundation in modern technologies, I continuously strive to enhance my skills to create responsive,
+        dynamic, and accessible interfaces. My goal is to contribute to innovative projects and collaborate with teams
+        that value quality and creativity.
+      </p>
+      <br />
+      <div class="tech-icons">
+        <i class="fab fa-html5 fa-3x" title="HTML"></i>
+        <i class="fab fa-css3-alt fa-3x" title="CSS"></i>
+        <i class="fab fa-js-square fa-3x" title="JavaScript"></i>
+        <i class="fab fa-react fa-3x" title="React"></i>
+        <i class="fab fa-sass fa-3x" title="Sass"></i>
+        <i class="fab fa-figma fa-3x" title="Figma"></i>
       </div>
     </div>
+  </div>
 
 
 
-    <!-- PROJECTS SECTION -->
+  <!-- PROJECTS SECTION -->
 
 
-    <h1 id="projects" class="h1-projects">Projects</h1>
-    <div class="projects-container">
-        
-        <ul class="projects-list">
-            <!-- Projeto 1 -->
-            <li class="project-item">
-                <img src="https://user-images.githubusercontent.com/104685458/194307678-e0fea856-190e-47c4-a7aa-6549e551458e.png" alt="Fly-swatting game">
-                <h3>Fly-swatting game</h3>
-                <p>Mini fly-swatting game using HTML, CSS, and JavaScript. A small project I learned during the Udemy course, with thanks to the instructor Jorge Sant Anna.</p>
-                <a href="https://jogo-mata-mosquito-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-            </li>
-    
-            <!-- Projeto 2 -->
-            <li class="project-item">
-                <img src="./imagens/secretWord2.jpg" alt="Word Guessing Game">
-                <h3>Word Guessing Game</h3>
-                <p>A word guessing game focused on React.js where I learned about useStates, useCallbacks, simulating a routing system, and score progression.</p>
-                <a href="https://github.com/eu-adris/Palavra-Secreta" target="_blank" rel="noopener noreferrer">View Project</a>
-            </li>
-    
-            <!-- Projeto 3 -->
-            <li class="project-item">
-                <img src="https://user-images.githubusercontent.com/104685458/193469139-51a25764-ebea-4e3e-9a8a-4c8be0eebd57.png" alt="Spotify Clone">
-                <h3>Spotify Clone</h3>
-                <p>Responsive clone of Spotify's homepage (2016) that I learned in the UDEMY course using HTML, Bootstrap, and CSS.</p>
-                <a href="https://clone-spotify-iota-green.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-            </li>
-    
-            <!-- Projeto 4 -->
-            <li class="project-item">
-                <img src="./imagens/miniBlog.png" alt="Mini Blog">
-                <h3>Mini Blog</h3>
-                <p>In this project, I learned how to create a mini blog using React.js, utilizing components and hooks, as well as using Firebase for the back-end.</p>
-                <a href="https://mini-blog-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-            </li>
-    
-            <!-- Projeto 5 -->
-            <li class="project-item">
-                <img src="./imagens/formulario.png" alt="Nutrition form">
-                <h3>Nutrition form</h3>
-                <p>A CRUD for a nutrition form that calculates your BMI using HTML, CSS, and JavaScript, along with an API for patients.</p>
-                <a href="https://formulario-nutricao-vert.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-            </li>
+  <h1 id="projects" class="h1-projects">Projects</h1>
+  <div class="projects-container">
 
-            <!-- Projeto 6 -->
-            <li class="project-item">
-              <img src="./imagens/foto rio tour.png" alt="Nutrition form">
-              <h3>Rio Tour</h3>
-              <p>A website project for tourists to explore the wonders of Rio de Janeiro. Here, I learned a lot about CSS3's position property. I must admit it was challenging, though flexbox and grid were very helpful.</p>
-              <a href="https://projetoriotour.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-          </li>
+    <ul class="projects-list">
+      <!-- Projeto 1 -->
+      <li class="project-item">
+        <img
+          src="https://user-images.githubusercontent.com/104685458/194307678-e0fea856-190e-47c4-a7aa-6549e551458e.png"
+          alt="Fly-swatting game">
+        <h3>Fly-swatting game</h3>
+        <p>Mini fly-swatting game using HTML, CSS, and JavaScript. A small project I learned during the Udemy course,
+          with thanks to the instructor Jorge Sant Anna.</p>
+        <a href="https://jogo-mata-mosquito-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">View
+          Project</a>
+      </li>
+
+      <!-- Projeto 2 -->
+      <li class="project-item">
+        <img src="./imagens/secretWord2.jpg" alt="Word Guessing Game">
+        <h3>Word Guessing Game</h3>
+        <p>A word guessing game focused on React.js where I learned about useStates, useCallbacks, simulating a routing
+          system, and score progression.</p>
+        <a href="https://github.com/eu-adris/Palavra-Secreta" target="_blank" rel="noopener noreferrer">View Project</a>
+      </li>
+
+      <!-- Projeto 3 -->
+      <li class="project-item">
+        <img
+          src="https://user-images.githubusercontent.com/104685458/193469139-51a25764-ebea-4e3e-9a8a-4c8be0eebd57.png"
+          alt="Spotify Clone">
+        <h3>Spotify Clone</h3>
+        <p>Responsive clone of Spotify's homepage (2016) that I learned in the UDEMY course using HTML, Bootstrap, and
+          CSS.</p>
+        <a href="https://clone-spotify-iota-green.vercel.app/" target="_blank" rel="noopener noreferrer">View
+          Project</a>
+      </li>
+
+      <!-- Projeto 4 -->
+      <li class="project-item">
+        <img src="./imagens/miniBlog.png" alt="Mini Blog">
+        <h3>Mini Blog</h3>
+        <p>In this project, I learned how to create a mini blog using React.js, utilizing components and hooks, as well
+          as using Firebase for the back-end.</p>
+        <a href="https://mini-blog-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+      </li>
+
+      <!-- Projeto 5 -->
+      <li class="project-item">
+        <img src="./imagens/formulario.png" alt="Nutrition form">
+        <h3>Nutrition form</h3>
+        <p>A CRUD for a nutrition form that calculates your BMI using HTML, CSS, and JavaScript, along with an API for
+          patients.</p>
+        <a href="https://formulario-nutricao-vert.vercel.app/" target="_blank" rel="noopener noreferrer">View
+          Project</a>
+      </li>
+
+      <!-- Projeto 6 -->
+      <li class="project-item">
+        <img src="./imagens/foto rio tour.png" alt="Rio Tour">
+        <h3>Rio Tour</h3>
+        <p>A website project for tourists to explore the wonders of Rio de Janeiro. Here, I learned a lot about CSS3's
+          position property. I must admit it was challenging, though flexbox and grid were very helpful.</p>
+        <a href="https://projetoriotour.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+      </li>
+
+      <!-- Projeto 7 -->
+      <li class="project-item">
+        <img src="./imagens/movielib222.png" alt="Movie lib">
+        <h3>Movie Lib</h3>
+        <p>A movie library built with ReactJS and the TMDB API. Here, I learned a lot about React Router, React Hooks (useState and useEffect). I developed this project while taking Matheus Battisti's course on Udemy.</p>
+        <a href="https://github.com/eu-adris/movielib.git" target="_blank" rel="noopener noreferrer">View Project</a>
+      </li>
 
 
 
-    <!-- CONTACT SECTION -->
+      <!-- CONTACT SECTION -->
 
 
-    <div id="contact">
+      <div id="contact">
         <h1>Contact</h1>
         <div class="contact-container">
-  
+
           <div class="contact-icons">
             <div class="contact-item">
               <i class="fas fa-envelope fa-3x"></i>
               <h3>email</h3>
               <p>noturnoabs@hotmail.com</p>
             </div>
-  
+
             <div class="contact-item">
               <i class="fas fa-phone-alt fa-3x"></i>
               <h3>Fone</h3>
               <p>+55 (21) 97428-7454</p>
             </div>
-  
+
             <div class="contact-item">
               <i class="fab fa-github fa-3x"></i>
               <h3>GitHub</h3>
               <p>github.com/eu-adris</p>
             </div>
-  
+
             <div class="contact-item">
               <i class="fab fa-linkedin fa-3x"></i>
               <h3>Linkedin</h3>
@@ -165,10 +191,10 @@
         </div>
       </div>
 
-    <script src="main.js">
+      <script src="main.js">
 
 
-    </script>
+      </script>
 </body>
 
 </html>
